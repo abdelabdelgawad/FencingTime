@@ -36,6 +36,8 @@ function Events(props) {
 
 			<button onClick = {openAddNewEventForm}>Add New Event</button>
 
+			<p>Click a table entry to view more event data</p>
+
 			<table>
 				<thead>
 					<tr>

@@ -45,7 +45,7 @@ const AppRouter = () => {
 		<div className="app-shell">
 			<div className="app-content">
 				{!webPageName.startsWith("/new") && !webPageName.startsWith("/edit") &&
-					<nav>
+					<nav className="navigation">
 						<Link to="/">
 							<button>Home</button>
 						</Link>
